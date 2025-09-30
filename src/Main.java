@@ -68,7 +68,7 @@ public class Main {
                     break;
                 }
                 case 2: {
-                    System.out.print("Enter Your  n Number: ");
+                    System.out.print("Enter Your N Number: ");
                     n = sc.nextInt();
                     fibonacci(n);
                     break;
@@ -78,10 +78,10 @@ public class Main {
                     n = sc.nextInt();
                     int flag = primeChecker(n);
                     if(flag == 0){
-                        System.out.println(n + " Is A Prime Number.");
+                        System.out.println(n + " is a prime number.");
                     }
                     else {
-                        System.out.println(n + " Is Not A Prime Number.");
+                        System.out.println(n + " is not a prime number.");
                     }
                     System.out.println();
                     break;
